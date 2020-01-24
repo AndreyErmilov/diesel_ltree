@@ -1,9 +1,6 @@
 #[macro_use]
 extern crate diesel;
 
-#[cfg(test)]
-mod tests;
-
 mod types {
     use diesel::pg::{Pg, PgMetadataLookup, PgTypeMetadata};
     use diesel::types::HasSqlType;
